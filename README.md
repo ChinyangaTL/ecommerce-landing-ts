@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# Frontend Mentor - E-commerce product page solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+My first TypeScript project in any capacity. This is built upon the React solution I published for the same project to help me acclamate to the development environment.
 
-In the project directory, you can run:
+One could make the arugement that useContext and useReducer are not necessary for an app of this size but I wanted to ease myself in to most aspects of building a react project - hence their inclusion.
 
-### `npm start`
+Styling was not a priority for this project. Let it be noted that this was the first time I had used Styled Components to build my own project and currently, I do not see any benefits it offers over creating seperate CSS files, but I am intrigued in exploring more into the subject.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+As for TypeScript, coming from a Java background, it's not particularly inticing. I did not see any benefits it might have offered (this could be a result of the size of the project) but I am moderately excited into delving more into the realm and seeing just what it can do and why it is highly regarded.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of contents
 
-### `npm test`
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `npm run build`
+### The challenge
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users should be able to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Switch the large product image by clicking on the small thumbnail images
+- Add items to the cart
+- View the cart and remove items from it
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Screenshot
 
-### `npm run eject`
+![](./screenshot.png)
+![](./screenshot-active.png)
+![](./screenshot-mobile.png)
+![](./screenshot-mobile-active.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## My process
 
-## Learn More
+### Built with
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
+- [TypeScript](https://docs.netlify.com/configure-builds/get-started/) - To add on to react
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What I learned
+
+I am not a fan of TypeScript with React. But I am interested.
+
+
+## Author
+
+- Github - [ChinyangaTL](https://github.com/ChinyangaTL)
+- Frontend Mentor - [@beyonce-beytwice](https://www.frontendmentor.io/profile/ChinyangaTL)
